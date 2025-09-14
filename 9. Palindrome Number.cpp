@@ -12,6 +12,6 @@ class Solution {
             x = x / 10;
         }
 
-        return original == reversed;
+        return original == reversed ;
     }
 }
