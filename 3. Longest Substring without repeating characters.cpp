@@ -4,8 +4,7 @@ class Solution {
         Arrays.fill(lastSeen, -1);
         
         int maxLength = 0;
-        int start = 0; // left pointer
-
+        int start = 0;
         for (int end = 0; end < s.length(); end++) {
             char ch = s.charAt(end);
             if (lastSeen[ch] >= start) {
