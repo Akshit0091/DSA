@@ -1,4 +1,3 @@
-#Code
 
 class Solution {
 public:
