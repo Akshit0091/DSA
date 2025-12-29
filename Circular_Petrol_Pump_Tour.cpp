@@ -1,5 +1,4 @@
-
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int circularTour(const vector<int>& petrol, const vector<int>& distance) {
